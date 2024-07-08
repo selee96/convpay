@@ -23,7 +23,7 @@
     <bean id="discountByPaymethod" class="com.zerobase.convpay.service.DiscountByPaymethod" />
     -->
 
-    <!-- 2. XML ComponentScan을 통한 Bean 등록 -->
+    <!-- 2. XML ComponentScan을 통한 Bean 등록
     <context:component-scan base-package="com.zerobase.convpay" />
-
+    -->
 </beans>
