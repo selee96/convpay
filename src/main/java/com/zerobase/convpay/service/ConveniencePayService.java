@@ -20,7 +20,7 @@ public class ConveniencePayService {
     * ConveniencePayService 생성자의 경우 따로 값을 넣어주고 있어서 오류,, 특별한 경우 아니면 됨!
     */
     public ConveniencePayService(Set<PaymentInterface> paymentInterfaceSet,
-                                 // @Qualifier("discountByConvenience")
+                                 @Qualifier("discountByConvenience")
                                  DiscountInterface discountInterface) {
         paymentInterfaceSet.forEach(
                 paymentInterface -> paymentInterfaceMap.put(

@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Component;
 
 @Component
-@Profile("test")
+// @Profile("test")
 public class DiscountByConvenience implements DiscountInterface {
     @Override
     public Integer getDiscountedAmount(PayRequest payRequest) {
